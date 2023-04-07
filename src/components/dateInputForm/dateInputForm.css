@@ -1,0 +1,23 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.btn {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 3rem;
+  background-color: #854dff;
+}
+.btn:hover {
+  background-color: #141414;
+}
+
+/*# sourceMappingURL=dateInputForm.css.map */

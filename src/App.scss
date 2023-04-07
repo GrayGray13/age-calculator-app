@@ -1,0 +1,14 @@
+@use 'styles/variables';
+
+// Styles
+body {
+  background-color: variables.$primary-background;
+  min-height: 100vh;
+}
+
+.App {
+    min-height: 100vh;
+    text-align: center;
+    font: 100% variables.$font-stack;
+    color: variables.$primary-font-color;
+}
