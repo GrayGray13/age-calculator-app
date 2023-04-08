@@ -20,4 +20,16 @@ input[type=number] {
   background-color: #141414;
 }
 
+.form-control {
+  width: 60%;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: #854dff;
+}
+
+label {
+  color: #716F6F;
+}
+
 /*# sourceMappingURL=dateInputForm.css.map */

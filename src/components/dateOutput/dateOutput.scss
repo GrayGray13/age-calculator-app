@@ -1,0 +1,8 @@
+@use '../../styles/variables';
+
+h2 {
+  font-family: PoppinsExtraBoldItalic, sans-serif;
+  span {
+    color: variables.$purple-color;
+  }
+}

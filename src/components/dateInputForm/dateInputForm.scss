@@ -18,7 +18,20 @@ input[type=number] {
   border-radius: 3rem;
   background-color: variables.$purple-color;
 
-  &:hover{
+  &:hover {
     background-color: hsl(0, 0%, 8%);
   }
+}
+
+.form-control {
+  width: 60%;
+
+  &:focus {
+    box-shadow: none;
+    border-color: variables.$purple-color;
+  }
+}
+
+label {
+  color: variables.$grey-color;
 }

@@ -1,4 +1,6 @@
-#  Age Calculator App
+#  Age Calculator App - FEM Challenge 2
+
+This is my solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q).
 
 ## Table of contents
 
