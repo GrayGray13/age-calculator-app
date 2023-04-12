@@ -1,8 +1,21 @@
 h2 {
   font-family: PoppinsExtraBoldItalic, sans-serif;
+  font-size: 110px;
 }
 h2 span {
   color: #854dff;
+  display: inline-block;
+  letter-spacing: 1rem;
+}
+
+.row-squish {
+  max-height: 7rem;
+}
+
+@media (max-width: 1400px) {
+  h2 {
+    font-size: 56px;
+  }
 }
 
 /*# sourceMappingURL=dateOutput.css.map */

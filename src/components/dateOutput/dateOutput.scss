@@ -2,7 +2,21 @@
 
 h2 {
   font-family: PoppinsExtraBoldItalic, sans-serif;
+  font-size: 110px;
+
   span {
     color: variables.$purple-color;
+    display: inline-block;
+    letter-spacing: 1rem;
+  }
+}
+
+.row-squish {
+  max-height: 7rem;
+}
+
+@media (max-width: variables.$breakpoint-mobile) {
+  h2 {
+    font-size: 56px;
   }
 }

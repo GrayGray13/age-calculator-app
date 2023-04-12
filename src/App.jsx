@@ -8,12 +8,9 @@ function App() {
 
     return (
         <div className="App">
-            <div className="container d-flex">
+            <div className="container d-flex vh-100 align-items-center">
                 <div className="row justify-content-center">
-                    <h1 className="text-center">Age Calculator</h1>
-
                     <DateCard/>
-
                     <Footer/>
                 </div>
             </div>

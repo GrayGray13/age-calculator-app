@@ -13,8 +13,8 @@ input[type=number] {
 }
 
 .btn {
-  width: 5rem;
-  height: 5rem;
+  width: 6rem;
+  height: 6rem;
   border-radius: 3rem;
   background-color: variables.$purple-color;
 
@@ -24,7 +24,9 @@ input[type=number] {
 }
 
 .form-control {
-  width: 60%;
+  width: 90%;
+  height: 4rem;
+  font-size: 32px;
 
   &:focus {
     box-shadow: none;
@@ -34,4 +36,6 @@ input[type=number] {
 
 label {
   color: variables.$grey-color;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
 }

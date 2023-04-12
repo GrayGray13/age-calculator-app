@@ -5,7 +5,7 @@ import './dateCard.scss';
 
 const DateCard = () => {
     return (
-        <div className="row">
+        <div className="row d-flex justify-content-center">
             <div className="card p-5">
                 <DateInputForm />
                 <DateOutput/>

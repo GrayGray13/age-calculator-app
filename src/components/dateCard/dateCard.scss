@@ -3,4 +3,13 @@
 .card {
   border: none;
   border-radius: 2rem 2rem 10rem 2rem;
+  width: 63%;
 }
+
+// Media Queries
+//@media (max-width: variables.$breakpoint-mobile) {
+//  .card {
+//    height: 50em;
+//    padding: 3rem 0 0 3rem !important;
+//  }
+//}
